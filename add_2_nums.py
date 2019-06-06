@@ -68,6 +68,7 @@ class LinkedList:
                 
             
         if carry > 0:
+            print("Carry",carry)
             temp.next=Node(carry)
             
                 
@@ -79,6 +80,8 @@ llist.insert_node_at_beg(9)
 llist.insert_node_at_beg(9)
 llist1=LinkedList()
 llist1.insert_node_at_beg(9)
+llist1.insert_node_at_beg(8)
+
 #llist1.insert_node_at_beg(2)
 llist.printList()
 print("List2")
